@@ -1,0 +1,78 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  background-color: black;
+  
+}
+.dogImage{
+  width: 60px;
+  height: auto;
+  
+  
+}
+.buttonImage{
+  width: 250px;
+  height: 69px;
+  background: gray;
+  border: none;
+  border-radius: 10px;
+}
+.listNav{
+  list-style: none;
+}
+
+.listContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.conteiner{
+  display: flex;
+  width: 34%;
+}
+
+.button{
+  border-radius: 8px;
+    width: 119px;
+    height: 37px;
+    background-color: #fbce27;
+    cursor: pointer;
+}
+.button:hover{
+  color: #3c3d15bb;
+  background-color: #f5e2a4;
+}
+.containerInput{
+  align-items: center;
+  display: flex;
+}
+.input{
+  padding: 21px;
+}
+.logo{
+  width: 62px;
+  margin: 2px 23px;
+}
+.title{
+  float: right;
+  margin: 12px 10px 10px 10px;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.titleH1{
+  height: 37px;
+  color: black;
+  background: #fbce27;
+  margin: 13px;
+  border: solid 4px;
+  border-radius: 10px;
+  width: 171px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 30px #fff,
+0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
+
+}

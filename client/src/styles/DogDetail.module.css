@@ -1,0 +1,87 @@
+.conteninerDetail{
+  display: inline-block;
+  grid-template-columns: .9fr 1fr;
+  width: 70rem;
+  min-height: 50rem;
+  padding: 1rem;
+  grid-gap: 1rem rem;
+  gap: 1rem;
+  background: #00000036;
+  border-radius: 82px;
+}
+.imageDetail{
+  width: 486px;
+  border-radius: 82px;
+}
+.title{
+  display: flex;
+  flex-direction: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  border-color: black;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 30px #fff,
+  0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
+  border: solid 3px;
+  border-radius: 16px;
+  margin: 18px 328px;
+  height: 50px;
+  background-color: #ffb401;
+}
+.div1{
+  margin: 106px 124px 304px 27px;
+}
+
+.div2{
+  margin: -3px 48px 19px 54px;
+  float: left;
+  border-radius: 43px;
+}
+.divDetail{
+  float: right;
+}
+
+.iconos{
+  width: 60px;
+}
+.conteninerInfo{
+  margin: 35px -93px 29px 601px;
+  border: solid;
+  border-radius: 25px;
+  background-color: #ffb401;
+}
+
+.conteinderIco{
+  display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 19px;
+    border: solid 2px;
+    border-radius: 10px;
+    margin: 37px 58px;
+}
+.conteinerCorazon{
+  margin: 10px -12px;
+}
+.temperament{
+  margin: -408px 549px -29px 81px;
+  border: solid 2px;
+  border-radius: 25px;
+  background-color: #ffb401;
+}
+.contButton{
+  margin: 95px 0px 0px 0px;
+}
+
+.button{
+  border-radius: 8px;
+    width: 119px;
+    height: 37px;
+    background-color: #fbce27;
+    cursor: pointer;
+}
+.button:hover{
+  color: #3c3d15bb;
+  background-color: #f5e2a4;
+}

@@ -1,0 +1,22 @@
+.button{
+    border-radius: 8px;
+      width: 119px;
+      height: 37px;
+      background-color: #fbce27;
+      cursor: pointer;
+}
+
+.button:hover{
+    color: #3c3d15bb;
+    background-color: #f5e2a4;
+}
+
+.input{
+    height: 32px;
+    font-size: 25px;
+    border-radius: 17px;
+    margin: 1px 2px -7px 109px;
+} 
+.contenedor{
+    margin: 13px;
+}

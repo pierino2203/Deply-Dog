@@ -1,0 +1,80 @@
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 64px 267px 292px;
+  border-radius: 43px;
+  background-color: #ffb401;
+}
+.contTitle{
+  width: 100%;
+  background: #000000c7;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+}
+.title{
+  color: white;
+}
+.contImg{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.img{
+  width: 142%;
+}
+.conti{
+  margin: 48px 155px -88px -51px;
+}
+.contP{
+  margin: 40px;
+    text-align: initial;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.techImg{
+  width: 35%;
+}
+.contInfo{
+  margin: 40px;
+  text-align: initial;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.contenedorTech{
+  display: flex;
+    grid-gap: 1rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.5411764705882353);
+    padding: 1rem;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    flex-wrap: nowrap;
+}
+
+.contTitle1{
+  width: 100%;
+  background: #000000c7;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  height: 57px;
+}
+
+.button{
+  border-radius: 8px;
+    width: 119px;
+    height: 37px;
+    background-color: #fbce27;
+    cursor: pointer;
+}
+.button:hover{
+  color: #3c3d15bb;
+  background-color: #f5e2a4;
+}
