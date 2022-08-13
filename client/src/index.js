@@ -8,6 +8,7 @@ import { store } from './redux/store';
 import axios from 'axios';
 import dotenv from 'dotenv'
 dotenv.config();
+const {REACT_APP_API} =process.env
 
 axios.defaults.baseURL =process.env.REACT_APP_API || 'http://localhost:3001';
 
