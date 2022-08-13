@@ -17,7 +17,7 @@ function validate(input){
   if(!input.weight_max || !/^[1-9]\d*(\.\d+)?$/.test(input.weight_max)){
     error.weight_max='Enter a weight max , only numbers'
   }
-  if(input.weight_max <= input.weight_min){
+  if(Number(input.weight_max) <= Number(input.weight_min)){
     error.weight_min  = 'Weight min should be less than weight max';
   }
   if(!input.height_min || !/^[1-9]\d*(\.\d+)?$/.test(input.height_min)){
@@ -26,7 +26,7 @@ function validate(input){
   if(!input.height_max || !/^[1-9]\d*(\.\d+)?$/.test(input.height_max)){
     error.height_max='Enter a height max , only numbers'
   }
-  if(input.height_max <= input.height_min){
+  if(Number(input.height_max) <= Number(input.height_min)){
     error.height_min = 'Height min should be less than height max';
   }
   if(!input.life_time_min || !/^[1-9]\d*(\.\d+)?$/.test(input.life_time_min)){
@@ -35,7 +35,7 @@ function validate(input){
   if(!input.life_time_max || !/^[1-9]\d*(\.\d+)?$/.test(input.life_time_max)){
     error.life_time_max='Enter a life time man , only numbers'
   }  
-  if(input.life_time_max <= input.life_time_min){
+  if(Number(input.life_time_max) <= Number(input.life_time_min)){
     error.life_time_min='Life time min should be less than life time max'
   }
   return error;
@@ -133,7 +133,7 @@ export default function DogCreate(){
           <p className={style.danger}>{error.name}</p>}
         </div>
         <div className={style.campos}>
-          <label className={style.label}>Weight Min*:</label>
+          <label className={style.label}>Weight Min(KG)*:</label>
           <br/>
           <input
             className={style.input}
@@ -146,7 +146,7 @@ export default function DogCreate(){
           <p className={style.danger}>{error.weight_min}</p>}
         </div>
         <div className={style.campos}>
-          <label className={style.label}>Weight Max*:</label>
+          <label className={style.label}>Weight Max(KG)*:</label>
           <br/>
           <input
             className={style.input}
@@ -159,7 +159,7 @@ export default function DogCreate(){
           <p className={style.danger}>{error.weight_max}</p>}
         </div>
         <div className={style.campos}>
-          <label className={style.label}>Height Min*:</label>
+          <label className={style.label}>Height Min(CM)*:</label>
           <br/>
           <input
             className={style.input}
@@ -172,7 +172,7 @@ export default function DogCreate(){
           <p className={style.danger}>{error.height_min}</p>}
         </div>
         <div className={style.campos}>
-          <label className={style.label}>Height Max*:</label>
+          <label className={style.label}>Height Max(CM)*:</label>
           <br/>
           <input
             className={style.input}
