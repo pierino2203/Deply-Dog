@@ -9,7 +9,7 @@ export default function LandingPage() {
       
       <NavLink className={style.navlink} to='/home'>
         <div>
-        <h4 className={style.subTitle}  >Ingresar</h4>
+        <h4 className={style.subTitle}  >ENTER</h4>
         <img src={img} alt="Logo de dog"/>
         </div>
       </NavLink>

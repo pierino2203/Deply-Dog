@@ -63,7 +63,7 @@ export default function Home(){
         <aside className={style.aside}>
           <h1 className={style.titlefilter}>Filters</h1>
           <div className={style.filter}>
-            <h4 className={style.titleSelect}>Temperamentos</h4>
+            <h4 className={style.titleSelect}>Temperaments</h4>
               <select className={style.selectAside} onChange={(e)=> handleFilterTemperament(e)}>
                 <option value='all'>All</option>
                 {temperaments && temperaments.map((temp)=> (

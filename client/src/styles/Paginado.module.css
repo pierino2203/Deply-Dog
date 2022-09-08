@@ -1,12 +1,12 @@
 .paginado {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fill, 40px);
   /* grid-gap: 4px; */
   grid-gap: 5px;
   gap: 5px;
   padding: 11px;
   justify-content: center;
-  margin: 8px 18px 17px 58px;
+  margin: 21px 87px 29px 90px;
   background-color: #ffb401; 
   border: solid black 4px;
   border-radius: 26px;

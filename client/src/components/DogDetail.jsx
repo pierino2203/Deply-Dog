@@ -7,6 +7,8 @@ import style from '../styles/DogDetail.module.css'
 import altura from '../images/pngwing.com.png'
 import vida from '../images/corazon.png.png'
 import peso from '../images/peso.png.png'
+import load from '../images/load.gif';
+
 export default function DogDetail(props)  {
 const dispatch = useDispatch()
 useEffect(()=>  {
@@ -61,7 +63,11 @@ return  (
         <Link to='/home'><button className={style.button}>Back</button></Link>  
       </div>  
       </div>
-      :<p>Loading...</p>
+      :<div className={style.loading}>
+        <img src={load}/>
+        <br/>
+        <p>Loading...</p>
+      </div>
     }
   
   </div>
